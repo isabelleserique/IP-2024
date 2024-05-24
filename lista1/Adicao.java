@@ -4,10 +4,10 @@ public class Adicao {
     private int numero1, numero2;
 
     public int getNumero1(){
-        return numero1;
+        return this.numero1;
     }
     public int getNumero2(){
-        return numero2;
+        return this.numero2;
     }
 
     public void setNumero1(int novoValor){

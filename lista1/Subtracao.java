@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class Subtracao {
     private int numero1, numero2;
 
-    public int getNumero1(){return numero1;}
-    public int getNumero2(){return numero2;}
+    public int getNumero1(){return this.numero1;}
+    public int getNumero2(){return this.numero2;}
     public void setNumero1(int novoValor){this.numero1=novoValor;}
     public void setNumero2(int novoValor){this.numero2=novoValor;}
 
